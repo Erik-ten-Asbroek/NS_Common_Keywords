@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "robotframework"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NS_Shared_Keywords"
+version = "0.1.0"
+description = "Generieke Robot Framework keywords voor interactie en utilities."
+authors = [
+    { name = "NS", email = "dev@ns.nl" }
+]
+requires-python = ">=3.8"
